@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "target": "ES2019",
+      "module": "commonjs",
+      "outDir": "dir", //pasta onde será jogados os arquivos em javascript
+      "sourceMap": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+    }
+}
