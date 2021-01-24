@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "sucrase-node index.ts",
     "dev": "sucrase-node index.ts",
     "test": "mocha -r ts-node/register src/**/**-test.ts"
   },
