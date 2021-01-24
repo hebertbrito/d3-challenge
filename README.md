@@ -42,5 +42,13 @@ Microsservice
 * Banco de dados como um BasS, do tipo NoSQL por tratarmos de apenas com dados brutos. O cloud escolhido é GCP(Google Cloud Plataform) pois garante o que precisamos.
     * Firebase
 
+# Disponibilidade
+* Podemos fazermos um calculo para cada microsserviço para medirmos sua disponibilidade de acordo com SLA(Service level-agreements)
+* Calculo para verificação:
+    * UPTIME ==> quantidade de tempo a qual o microsserviço funcionou corratamente.
+    * DOWNTIME ==> quantidade de tempo durante a qual o microsserviço não funcionou corretamente.
+    * TEMPO TOTAL ==> UPTIME + DOWNTIME
+    * DISPONIBILIDADE ==> UPTIME / TEMPO TOTAL
+* Apos conseguirmos a DISPONIBILIDADE comparamos com a "Notação dos Noves"
 # Infraestrutura
 * Com muito pouco conhecimento de infraestrutura deixaria a carga de um IaaS(Infrastructure as a Service)
