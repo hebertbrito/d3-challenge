@@ -22,7 +22,7 @@ export class Main{
     }
 
     calcPrevision(){
-        const lsResponse = []
+        // const lsResponse = []
         for (let index = 1; index <= this.Days; index++) {
             // lsResponse.push(this.calculatePrevisionClass.calculate(index))
             console.log(this.calculatePrevisionClass.calculate(index))

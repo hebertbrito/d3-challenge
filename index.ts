@@ -4,6 +4,6 @@ import { CalculatePrevisionClass } from './src/utils/calculatePrevision'
 
 let validatorAdapterClass = new ValidatorAdapterClass();
 let calculatePrevisionClass = new CalculatePrevisionClass()
-let Principal = new Main(-1, validatorAdapterClass, calculatePrevisionClass)
+let Principal = new Main(4, validatorAdapterClass, calculatePrevisionClass)
 
 Principal.prevision()
