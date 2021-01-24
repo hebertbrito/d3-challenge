@@ -1,7 +1,9 @@
 import { Main } from './src/class/main'
 import { ValidatorAdapterClass } from './src/adapter/validator'
+import { CalculatePrevisionClass } from './src/utils/calculatePrevision'
 
 let validatorAdapterClass = new ValidatorAdapterClass();
-let Principal = new Main(10, validatorAdapterClass)
+let calculatePrevisionClass = new CalculatePrevisionClass()
+let Principal = new Main(4, validatorAdapterClass, calculatePrevisionClass)
 
 Principal.prevision()
