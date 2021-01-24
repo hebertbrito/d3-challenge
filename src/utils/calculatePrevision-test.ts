@@ -1,6 +1,6 @@
 import { assert, expect, should } from 'chai'
 import { CalculatePrevisionClass } from './calculatePrevision'
-describe("heheheh", ()=>{
+describe("Testing unit CalculatePrevisionClass", ()=>{
 
     const stub = new CalculatePrevisionClass();
 
