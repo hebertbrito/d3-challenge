@@ -17,3 +17,6 @@
     * docker build -t d3/brito .
 * Espera criar a imagem, caso error verificar os erros antes de prosseguir, então execute:
     * docker run d3/brito
+
+# EXTRA
+> ARQUITETURA
