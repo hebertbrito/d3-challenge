@@ -1,5 +1,5 @@
 # D3 Challange
-> Informações para execução dos testes
+> Informações para execução do desafio
 
 ## Ferramentas necessario para teste local
 * Node - LTS Version
