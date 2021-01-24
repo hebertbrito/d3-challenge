@@ -1,5 +1,6 @@
 import { ValidatorAdapterClass } from '../adapter/validator'
 import { CalculatePrevisionClass } from '../utils/calculatePrevision'
+const MESSAGE_ERROR = "The number must be greater than zero"
 export class Main{
 
     private readonly Days: number
@@ -14,9 +15,10 @@ export class Main{
 
 
     prevision(){
-        if(this.ValidatorAdapter.isvalid(this.Days)){
+        if(this.ValidatorAdapter.isvalid(this.Days))
             this.calcPrevision()
-        }
+        else
+            console.log(MESSAGE_ERROR)
     }
 
     calcPrevision(){
